@@ -9,15 +9,7 @@ function bark(name, weight){
     }
 }
 
-var dogName = "rover";
-var dogWeight = 23;
-
-bark(dogName, dogWeight)
-
-dogName = "Spot"
-dogWeight = 15
-bark(dogName, dogWeight)
-
-dogName = "Spike"
-dogWeight = 53
-bark(dogName, dogWeight)
+bark("rover", 23);
+bark("spot", 13);
+bark("spike", 53);
+bark("lady", 17);
